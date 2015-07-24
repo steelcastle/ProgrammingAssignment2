@@ -55,7 +55,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## If the cache contains a value, it will return this value and
 ## report that the cached data was used.
 ##
-## If the cache contains no value, then the function "get" is
+## If the cache contains the value of NULL, then the function "get" is
 ## called to access the original matrix value, the inverse is then
 ## calculated and this is saved back into the cache location (using 
 ## "setmatinv")
